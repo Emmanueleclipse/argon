@@ -1,0 +1,50 @@
+.AragonCardsParent{
+    display: flex;
+    width: 50%;
+}
+.AragonCards{
+    padding: 16px 24px;
+    background: #fff;
+    border-radius: 6px;
+    color: #525F7F;
+    width: 50%;
+    margin-top: 20px;
+}
+.AragonCards .AragonFlex .material-icons{
+    height: 48px;
+    width: 48px;
+    border-radius: 25px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+}
+.AragonCardsML{
+    margin-left: 13px
+}
+.AragonCardsMR{
+    margin-right: 13px;
+}
+@media only screen and (max-width: 1150px){
+    .AragonCardsParentMain{
+        display: block;
+    }
+    .AragonCardsParent{
+        width: 100%;
+        margin: 0 0 8px 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    .AragonCardsParent{
+        display: block;
+        width: 100%;
+    }
+    .AragonCards{
+        margin: 24px 0 0 0;
+        width: 100%;
+        padding: 0
+    }
+    .AragonCardsChild{
+        padding: 16px 24px;
+    }
+}

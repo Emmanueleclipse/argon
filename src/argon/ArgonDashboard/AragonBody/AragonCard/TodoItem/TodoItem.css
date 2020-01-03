@@ -1,0 +1,12 @@
+.AragonCheckBox {
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 3px;
+    cursor: pointer;
+    background: url('../../../../assets/checkIcon.png');
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: 2px 2.3px;
+    border: 1px solid;
+    margin: 16px 0;
+}

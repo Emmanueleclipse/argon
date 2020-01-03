@@ -1,0 +1,31 @@
+.AragonCard{
+    margin: 24px 0;
+}
+.AragonWorkCards{
+    border-radius: 6px;
+    width: 33.33%;
+    background: #fff;
+    color: #32325D;
+}
+.AragonM-l{
+    margin-left: 12px;
+}
+.AragonM-r{
+    margin-right: 12px;
+}
+.AragonWorkCardsTitle{
+    font-size: 17px;
+    margin: 0;
+    padding: 18px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    font-weight: bold;
+}
+@media only screen and (max-width: 1150px){
+    .AragonCard{
+        display: block;
+    }
+    .AragonWorkCards{
+        width: auto;
+        margin: 24px 0;
+    }
+}

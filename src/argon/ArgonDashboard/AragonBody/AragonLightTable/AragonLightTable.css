@@ -1,0 +1,181 @@
+.AragonLightTable{
+    width: 60%;
+}
+.AragonLightTableChild{
+    overflow-x: scroll;
+    width: 100%;
+    overflow-y: hidden
+}
+.Aragon table{
+    border-collapse: collapse;
+}
+.AragonLightTable table{
+    min-width: 1045px;
+}
+.Aragon th{
+    background: #F6F9FC;
+    font-size: 10.4px;
+    border: none;
+    color: #8898AA;
+    text-align: left !important;
+    padding: 12px 24px;
+}
+.Aragon td{
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    font-size: 14px !important;
+}
+.Aragon td .techImg{
+    margin-right: 16px;
+}
+.AragonTechStatus{
+    width: 167px;
+}
+.AragonTechStatusBoard{
+    background: rgb(82, 95, 127, 0.2);
+    height: 1.5px;
+    flex-grow: 100;
+    margin: 8px;
+}
+.AragonStatusDot{
+    padding: 3px;
+    height: 0 !important;
+    display: inline-block;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+.AragonTableDataAction{
+    position: absolute;
+    width: 192px;
+    margin: 2px 0 0 -170px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    z-index: 1;
+    background: #fff;
+    display: none;
+}
+.AragonTableDataAction a:hover{
+    background: #f6f9fc;
+}
+.AragonTableDataActionMarginTop{
+    margin-top: -160px;
+}
+.AragonTableDataAction a{
+    display: block;
+    padding: 10px;
+    margin: 2px 0;
+}
+.aragonMoreVert{
+    cursor: pointer;
+    font-size: 16px !important;
+    color: #CED4DA;
+    padding: 6px;
+    border-radius: 4px;
+}
+.aragonMoreVert:hover{
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+}
+.AragonPurpleCard{
+    background: linear-gradient(to right, #172A4D, #1A184D);
+    margin-right: 13px;
+}
+.AragonPinkCard{
+    margin-left: 13px;
+    background: linear-gradient(to right, #F53859, #F55F37);
+}
+.AragonPurpleCard, .AragonPinkCard{
+    width: 50%;
+    margin-top: 28px;
+    padding: 24px;
+    border-radius: 6px;
+}
+.AragonPurpleCard h3{
+    margin: 0 0 12px 0;
+}
+.AragonPurpleCard h3 span{
+    font-size: 12px;
+}
+.AragonPurpleCard span{
+    margin-right: 4px;
+    font-size: 16px;
+    font-weight: normal
+}
+.Aragon button{
+    font-size: 14px;
+}
+.AragonPurpleCard button{
+    border: none;
+    width: 100%;
+    background: #fff;
+    padding: 6px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 0 0 48px 0;
+}
+.AragonPinkCard button{
+    border: none;
+    background: #B0EED3;
+    color: #1AAE6F;
+    font-size: 11px !important;
+    border-radius: 4px;
+    height: 27px;
+    width: 64px;
+}
+.Aragon button{
+    font-family: 'Open Sans';
+    border: none;
+}
+.aragonAmount{
+    font-weight: normal;
+}
+.aragonGreen{
+    color: #2DCE89;
+}
+.aragonGrey{
+    color: #ced4ce
+}
+.aragonWhite{
+    color: #fff;
+}
+.AragonPinkCard h1{
+    margin: 0;   
+    color: #fff;
+}
+.AragonPinkCard h3{
+    margin: 0;
+    color: #fff;
+}
+.AragonPinkCard span{
+    font-size: 10px;
+    letter-spacing: 0.09em;
+    display: block;
+    margin-top: 36px;
+}
+.AragonTransparentBorder{
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 1150px){
+    .AragonLightTable{
+        width: auto;
+        margin: 0;
+    }
+    .Aragon table{
+        width: 100%;
+    }
+    .AragonPinkCard, .AragonPurpleCard{
+        margin-top: 0;
+    }
+    .Aragon td{
+        text-align: left
+    }
+}
+@media only screen and (max-width: 575px){
+    .AragonPinkCard, .AragonPurpleCard{
+        margin: 16px 0;
+        width: auto
+    }
+    .AragonPinkPurpleCard{
+        display: block;
+    }
+}

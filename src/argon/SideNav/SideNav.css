@@ -1,0 +1,88 @@
+.aragonhead{
+    padding: 24px 20px 24px 24px;
+    display: flex;
+    margin-bottom: 12px;
+}
+.aragonhead img{
+    width: 108px;
+}
+.argonMenu{
+    margin: 6px 0 6px auto;
+    cursor: pointer;
+    position: relative;
+}
+.argonMenu span{
+    display: block;
+    border: 1px solid #172b4d;
+    width: 16px;
+    margin: 3px 0;
+    border-radius: 1px;
+    transition: linear all 0.2s;
+}
+.argonMenu .ArgonhalfIcon{
+    width: 11px;
+    margin-left: auto
+}
+.aragonSideNav{
+    height: 100vh;
+    float: left;
+    overflow-y: scroll;
+    width: 100%;
+    z-index: 1;
+}
+.aragonSideNav::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+.aragonSideNav::-webkit-scrollbar {
+    width: 4px;
+}
+
+.aragonSideNav::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(82, 82, 82, 0);
+}
+.AragonLeft:hover .aragonSideNav::-webkit-scrollbar-thumb{
+    background-color: rgb(128, 128, 128, 0.2);
+}
+.SideNavWidth{
+    width: 62px;
+    background: #fff;
+}
+.SideNavWidth .AragonHide{
+    display: none;
+}
+.SideNavWidth .blueBlur{
+    background: transparent !important;
+}
+.SideNavWidth .hideText{
+    visibility: hidden;
+}
+.SideNavWidth .argonMenu{
+    left: -2px;
+}
+.SideNavWidth:hover{
+    width: 250px;
+}
+.SideNavWidth:hover .argonMenu{
+    left: 0;
+}
+.SideNavWidth:hover .AragonHide{
+    display: block;
+}
+.SideNavWidth:hover .hideText{
+    visibility: visible;
+}
+@media only screen and (max-width: 1150px){
+    .SideNavWidth{
+        width: 250px;
+    }
+    .SideNavWidth .hideText{
+        visibility: visible;
+    }
+    .SideNavWidth .AragonHide{
+        display: block;
+    }
+    .argonMenu{
+        display: none;
+    }
+}

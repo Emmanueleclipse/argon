@@ -1,0 +1,174 @@
+.ArgonDashboard .argonblueBackground{
+    position: absolute;
+    background: #5E72E4;
+    width: 100%;
+    height: 379px;
+    left: 0;
+}
+.ArgonDashboard .ArgonDashMain{
+    position: relative;
+}
+.ArgonDashboard .ArgonHeader{
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 74px;
+}
+.ArgonDashboard .AragonSearch{
+    border-radius: 24px;
+    padding: 13.5px 14px;
+    background: #fff;
+    cursor: text;
+}
+.ArgonDashboard .AragonSearch i{
+    font-size: 19px;
+    min-width: 26px;
+}
+.ArgonDashboard .AragonSearch input{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.8);
+    min-width: 236px;
+    transition: ease-in 0.1s all;
+    animation: inputBlurAnimation 0.2s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+    font-size: 14px;
+}
+.ArgonDashboard .AragonSearch input::placeholder{
+    font-family: 'Open Sans';
+}
+.ArgonDashMain .AragonSearch input:focus{
+    animation: inputFocusAnimation 0.2s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+}
+@keyframes inputFocusAnimation{
+    0%{
+        min-width: 366px;
+    }
+    50%{
+        min-width: 330px
+    }
+    100%{
+        min-width: 366px;
+    }
+}
+@keyframes inputBlurAnimation{
+    0%{
+        min-width: 236px;
+    }
+    50%{
+        min-width: 280px;
+    }
+    100%{
+        min-width: 236px
+    }
+}
+.ArgonDashboard .argonMenu,
+.ArgonDashboard .searchIcon{
+    display: none;
+}
+.ArgonDashboard .argonMenu span{
+    border-color: #fff;
+    width: 16px;
+    margin-left: auto;
+}
+.ArgonRightHeader{
+    display: flex;
+    margin-left: auto;
+}
+.ArgonRightHeader i{
+    display: block;
+    color: #fff;
+    margin: 11px 0 0 27px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.ArgonDashboard .profileIcon img{
+    width: 36px;
+    border-radius: 24px;
+    margin: 4px 10px 0 24px;
+}
+.ArgonDashboard .profileName{
+    color: #fff; 
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.AragonSearchForSmall{
+    position: absolute;
+    width: 94%;
+    margin: 16px 3% 0 3%;
+    left: -100%;
+    top: 0;
+    transition: ease-in 0.2s all;
+}
+.AragonSearchForSmall .AragonSearch{
+    padding-top: 13px;
+    display: flex !important;
+}
+.AragonSearchForSmall input{
+    animation: none !important;
+    display: block;
+    margin-right: auto;
+    flex-grow: 100;
+}
+.AragonSearchForSmall i{
+    cursor: pointer;
+}
+@media only screen and (max-width: 1150px){
+    .ArgonDashboard .argonMenu{
+        display: block;
+        margin-top: 11px;
+    }
+    .ArgonDashboard .argonblueBackground{
+        height: 509px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .profileName{
+        display: none;
+    }
+    .ArgonDashboard .argonblueBackground{
+        height: 780px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .AragonSearch{
+        display: none;
+    }
+    .ArgonDashMain .searchIcon{
+        display: block;
+    }
+    .AragonSearchForSmall .AragonSearch{
+        display: block;
+    }
+    .ArgonRightHeader{
+        margin: 0 auto 0 0;
+    }
+    .ArgonHeader .AragonFlex{
+        position: relative;
+        transition: ease-out 0.2s all;
+    }
+    .AragonSearchForSmall i{
+        cursor: pointer;
+        margin: auto;
+        min-width: auto
+    }
+    .ArgonDashboard .AragonSearch .SearchMinWIdth{
+        min-width: 20px;
+        margin: auto 0;
+    }
+}
+@media only screen and (max-width: 350px){
+    .ArgonDashboard .AragonSearch{
+        padding: 12px 6px;
+    }
+    .ArgonDashboard .AragonSearch i{
+        width: auto;
+        width: 12px;
+        font-size: 16px;
+        margin-top: 1px;
+    }
+    .ArgonDashboard .AragonSearch .SearchMinWIdth{
+        min-width: 18px;
+    }
+}

@@ -1,0 +1,57 @@
+.SideNavLinks .AragonFlex{
+    font-size: 14px;
+    margin: 0 5px 0 8px;
+    padding: 13px 13px 13px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.SideNavLinks{
+    max-height: 45px;
+    overflow: hidden;
+    margin: 2px 0;
+    transition: linear 0.3s all;
+    display: block;
+}
+.SideNavLinks *{
+    transition: linear 0.3s all;
+}
+.SideNavLinks .blueBlur{
+    background: #f6f9fc;
+    color: #000;
+}
+.SideNavLinks i{
+    font-size: 18px;
+    min-width: 32px;
+}
+.SideNavLinks .ptb-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.SideNavLinks a{
+    padding: 7px 54px;
+    display: block;
+    font-size: 13px;
+    cursor: pointer;
+}
+.SideNavLinks .ml-a{
+    font-weight: bold;
+    color: rgba(82, 95, 127, 0.33);
+}
+.dropdownUbaidIcon{
+    border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 7px solid rgba(82, 95, 127, 0.6);
+    margin: 7px 0 auto auto;
+    transition: linear 0.2s all;
+}
+.UbaidDropDownStick{
+    max-height: 48px;
+    overflow: hidden;
+    transition: ease-in 0.3s all;
+}
+.UbaidDropDownStickMain{
+    max-height: 1000px;
+}
+.UbaidDropDownStickMain .dropdownUbaidIcon{
+    transform: rotate(180deg);
+}

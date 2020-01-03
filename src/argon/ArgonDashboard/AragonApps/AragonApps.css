@@ -1,0 +1,76 @@
+.AragonApps{
+    position: absolute;
+    width: 320px;
+    background: #172B4D;
+    color: #fff;
+    justify-content: space-between;
+    margin-left: -258px;
+    margin-top: 6px;
+    border-radius: 6px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    display: none;
+    z-index: 1;
+}
+.AragonApps .AragonAppsPadding{
+    padding: 7px 16px;
+}
+.AragonApps i{
+    margin: 0 0 12px 0;
+    display: block;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 26px;
+    margin-bottom: 12px;
+}
+.AragonAppsIcon{
+    text-align: center;
+    padding: 16px 15px;
+}
+.AragonApps .AragonFlex{
+    justify-content: space-between;
+}
+.Aragon .orangeGre{
+    background: linear-gradient(87deg,#f5365c 0,#f56036 100%);
+}
+.Aragon .orangeGre2{
+    background: linear-gradient(87deg,#fb6340 0,#fbb140 100%);
+}
+.Aragon .blueGre{
+    background: linear-gradient(87deg,#11cdef 0,#1171ef 100%);
+}
+.Aragon .tealGre{
+    background: linear-gradient(87deg,#2dce89 0,#2dcecc 100%);
+}
+.Aragon .pupleGre{
+    background: linear-gradient(87deg,#8965e0 0,#bc65e0 100%);
+}
+.Aragon .yellowGre{
+    background: linear-gradient(87deg,#ffd600 0,#beff00 100%);
+}
+.AragonAppsIcon:hover i{
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 575px){
+    .AragonApps{
+        width: 100%;
+        margin: 16px 0 0 0;
+        left: 0;
+    }
+    .AragonApps .AragonAppsPadding{
+        padding: 8px 10px
+    }
+}
+@media only screen and (max-width: 370px){
+    .AragonApps .AragonAppsPadding{
+        padding: 6px 2px
+    }
+    .AragonAppsIcon{
+        padding: 14px;
+    }
+}

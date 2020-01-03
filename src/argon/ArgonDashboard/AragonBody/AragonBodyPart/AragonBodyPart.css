@@ -1,0 +1,50 @@
+.AragonBodyPart{
+    padding: 16px 0;
+}
+.ArgonHomeLinks h2{
+    margin: 0;
+    font-size: 20px;
+    line-height: 18px
+}
+.ArgonHomeLinks i{
+    font-size: 19px;
+    margin: 0 0 0 24px;
+}
+.ArgonHomeLinks .ArgonHyfon{
+    margin: 0 8px;
+    color: #Dee2e6
+}
+.ArgonHomeLinks .ml-a button{
+    border: none;
+    color: #5e72e4;
+    padding: 5px 8px;
+    background: #fff;
+    margin-left: 8px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    letter-spacing: .025em;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    position: relative;
+}
+.ArgonHomeLinks .ml-a{
+    position: relative;
+    top: -3px;
+}
+.ArgonHomeLinks button:hover{
+    top: -1px;
+    color: black;
+}
+@media only screen and (max-width: 760px){
+    .ArgonHomeLinks *{
+        display: none !important;
+    }
+    .ArgonHomeLinks h2,
+    .ArgonHomeLinks .ml-a{
+        display: block !important;
+    }
+
+    .ArgonHomeLinks button{
+        display: inline !important;
+    }
+}

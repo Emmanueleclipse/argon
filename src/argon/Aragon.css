@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.Aragon{
+    font-family: 'Open Sans', sans-serif;
+    color: #525f7f;
+    font-size: 14px;
+    background: #F1F4F9;
+}
+.Aragon *{
+    transition: ease-out 0.3s all;
+}
+.Aragon a{
+    color: inherit;
+}
+.AragonBlur{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    cursor: pointer;
+}
+.AragonLeft{
+    width: 250px;
+    position: fixed;
+    display: block;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+}
+.AragonRight{
+    margin-left: 250px;
+}
+.Aragon a{
+    text-decoration: none;
+}
+.AragonFlex{
+    display: flex;
+}
+.Aragon .ml-a{
+    margin-left: auto;
+    font-size: 16px;
+}
+.ArgonFortoggle{
+    position: absolute;
+    z-index: -2;
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+.AragonBlue{
+    color: #5E72E4 !important;
+}
+@media only screen and (max-width: 1150px){
+    .AragonRight{
+        margin: 0 !important;
+    }
+    .AragonLeft{
+        left: -250px;
+        z-index: 1;
+    }
+    .AragonLeftForSmall{
+        left: 0;
+    }
+}

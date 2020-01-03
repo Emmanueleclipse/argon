@@ -1,0 +1,53 @@
+.ArgonNotifications{
+    position: absolute;
+    background: #fff;
+    border-radius: 6px;
+    width: 423px;
+    margin: 6px 0 0 -360px;
+    display: none;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    z-index: 1;
+}
+.ArgonNotifications .SettingPadding{
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    color: #8898aa;
+    display: flex;
+}
+.ArgonBlue{
+    color: #5E72E4;
+}
+.SettingPadding .Argontime{
+    font-size: 12px;
+    margin-left: auto;
+}
+.ArgonNotifiName{
+    margin-left: 16px;
+    border: 2px solid red;
+}
+.notificationViewAll{
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #5E72E4;
+}
+.ArgonNotifyCard:hover{
+    background: #f6f9fc;
+    cursor: pointer;
+}
+.ArgonShow{
+    display: block !important;
+}
+@media only screen and (max-width: 575px){
+    .ArgonNotifications{
+        width: 100%;
+        margin: 16px 0 0 0;
+        left: 0;
+    }
+}
+@media  only screen and (max-width: 426px){
+    .ArgonNotifications{
+        width: 100%;
+        margin: 16px 0 0 0;
+    }
+}

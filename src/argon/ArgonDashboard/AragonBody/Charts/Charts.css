@@ -1,0 +1,92 @@
+.AragonCharts{
+    margin-top: 8px;
+}
+.AragonLineChart, .AragonBarChart{
+    background-color: #172B4D;
+    padding: 20px 24px;
+    border-radius: 6px;
+    margin-right: 12px;
+}
+.AragonBarChart{
+    background-color: #fff;
+    margin: 0 0 0 12px;
+}
+.AragonLineChartMain{
+    width: 67%;
+}
+.AragonBarChartMain{
+    width: 33%;
+}
+.AragonCharts h6{
+    color: #CED4DA;
+    margin: 0 0 4px 0;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+.AragonCharts h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold
+}
+.AragonCharts .AragonBarChart h6{
+    color: #8898AA;
+}
+.AragonCharts .AragonBarChart h3{
+    color: #32325D;
+    margin-bottom: 48px;
+}
+.AragonLineChart button{
+    border: none;
+    padding: 11px 16px;
+    color: #5372E4;
+    border-radius: 6px;
+    background: #fff;
+    margin-left: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.AragonLineChart .AragonBuleBtn{
+    background: #5372E4;
+    color: #fff;
+}
+.AragonLineChartOverView{
+    margin-bottom: 48px;
+}
+@media only screen and (max-width: 1150px){
+    .AragonCharts{
+        display: block;
+        margin-top: 6px;
+    }
+    .AragonLineChartMain, .AragonBarChartMain{
+        width: 100%;
+    }
+    .AragonBarChart, .AragonLineChart{
+        margin: 0;
+    }
+    .AragonBarChart{
+        margin-top: 24px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .AragonLineChart h3{
+        min-width: 96px;
+    }
+    .AragonLineChart button{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .AragonLineChart button{
+        font-size: 10px;
+        margin-left: 6px;
+        padding: 9px 10px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .AragonLineChart button{
+        font-size: 9px;
+        margin-left: 6px;
+        padding: 4px 7px;
+    }
+}
